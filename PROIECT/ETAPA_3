@@ -122,8 +122,6 @@ public:
         cout<<"Scrieti cati lei s-au incasat saptamana trecuta: ";
         in>>ob.lei_sapt;
         lei_ramasi = ob.lei_sapt;
-        if(ob.lei_zi != nullptr)
-            delete[] ob.lei_zi;
         ob.lei_zi = new float[7];
         for(int i = 0; i < 7; i++)
         {
